@@ -1,0 +1,16 @@
+{
+  "name": "indexjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "qr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.5.1",
+    "chalk": "^4.1.1"
+  }
+}
