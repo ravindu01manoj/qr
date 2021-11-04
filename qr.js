@@ -43,8 +43,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please wait.')}`);
 					'base64'
 				),
 			MessageType.text
-		);
-		if (conn.user.jid.startsWith('90')) {
+		)
 			await conn.sendMessage(
 				conn.user.jid,
 				'*⚠️ Please Do Not Share This Code With Anyone ' +
@@ -52,15 +51,7 @@ ${chalk.blue.italic('ℹ️  Connecting to Whatsapp... Please wait.')}`);
 					'* ⚠️\n\nᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ',
 				MessageType.text
 			);
-		} else {
-			await conn.sendMessage(
-				conn.user.jid,
-				'*⚠️ Please Do Not Share This Code With Anyone ' +
-					conn.user.name +
-					'* ⚠️\n\nᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ',
-				MessageType.text
-			);
-		}
+		
 		console.log(
 			chalk.green.bold(
 				"IF YOU CANNOT COPY THE MESSAGE, PLEASE CHECK WHATSAPP. QR CODE SENT TO YOUR OWN NUMBER!\nඔබට කොපි කර ගැනීමට නොහැකි නම් ඔබගේ නම්බර් එකට පණිවිඩයක් මගින් කේතය ලැබේ"
