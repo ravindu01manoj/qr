@@ -17,7 +17,7 @@ const fs = require('fs');
 async function sewqueen(waversion) {
 	const conn = new WAConnection();
 	conn.logger.level = 'warn';
-	conn.version = waversion || [2, 2140, 12];
+	conn.version = waversion;
 
 	conn.on('connecting', async () => {
 		console.log(`${chalk.bold.rgb(238, 7, 230)('S')}${chalk.bold.rgb(4, 252, 29)('E')}${chalk.bold.rgb(252, 4, 37)('W ')}${chalk.bold.rgb(21, 4, 252)('Q')}${chalk.bold.rgb(0, 255, 255)('U')}${chalk.bold.rgb(255, 0, 127)('E')}${chalk.bold.rgb(76, 0, 153)('E')}${chalk.bold.rgb(255, 255, 0)('N')}
