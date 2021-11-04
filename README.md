@@ -2,7 +2,7 @@
 ```
 $ pkg upgrade && pkg update
 $ pkg install npm && pkg install git
-$ pkg install node
+$ pkg install nodejs
 ```
 
 ```
