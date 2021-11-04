@@ -12,6 +12,6 @@
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.1",
     "chalk": "^4.1.1",
-    "sew-queen-web-update": '*'
+    "sew-queen-web-update": "*"
   }
 }
