@@ -10,7 +10,7 @@ Whats bot - Ravindu Manoj
 */
 
 const chalk = require('chalk');
-const { WAConnection, MessageType } = require('@ravindu01manoj/web-sew');
+const { WAConnection, MessageType } = require('@ravindu01manoj/sew-queen-web');
 const fs = require('fs');
 
 
