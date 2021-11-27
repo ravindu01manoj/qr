@@ -10,8 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ravindu01manoj/sew-queen-web": "^1.0.1",
     "chalk": "^4.1.1",
-    "sew-queen-web-update": "*"
+    "sew-queen-web-update": "^1.0.8"
   }
 }
