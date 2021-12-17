@@ -2,12 +2,12 @@
   "name": "indexjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./qr/sew.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "supervisor -s sew.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ravindu",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.1",
