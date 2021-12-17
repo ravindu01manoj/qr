@@ -2,7 +2,7 @@
   "name": "indexjs",
   "version": "1.0.0",
   "description": "",
-  "main": "./qr/sew.js",
+  "main": "./sew.js",
   "scripts": {
     "start": "supervisor -s sew.js"
   },
